@@ -1,7 +1,5 @@
 {
-  "homepage": "https://AlexAntonio29.github.io/PapeleriaBelen",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
+  
 
   "name": "papeleria_belen",
   "version": "0.1.0",
