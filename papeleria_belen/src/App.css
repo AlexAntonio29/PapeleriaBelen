@@ -50,7 +50,7 @@ position: fixed;
 
 top: 0;
 left: 0;
-padding: 20px;
+padding: 45px;
 
 
 background-color: #afe66d;
@@ -83,6 +83,10 @@ align-items: center;
 }
 
 .menu-inferior{
+ 
+  bottom: 0;
+  left: 0;
+ 
 
 background-color: #78c21f;
 
@@ -90,7 +94,7 @@ color: #ffffff;
 justify-content: center;
 align-items: center;
 
-  padding-top: 100px;
+  padding-top: 10px;
   padding-left: 100px;
 
 width: 100%;
