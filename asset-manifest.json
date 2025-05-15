@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PapeleriaBelen/static/css/main.5a43bedd.css",
-    "main.js": "/PapeleriaBelen/static/js/main.fc1fd492.js",
+    "main.js": "/PapeleriaBelen/static/js/main.4013148f.js",
     "static/js/453.53214a2d.chunk.js": "/PapeleriaBelen/static/js/453.53214a2d.chunk.js",
     "static/media/logo2.png": "/PapeleriaBelen/static/media/logo2.16023b47bc9d9278baae.png",
     "static/media/wasao.png": "/PapeleriaBelen/static/media/wasao.93927aa4caf300bec569.png",
@@ -34,11 +34,11 @@
     "static/media/face.png": "/PapeleriaBelen/static/media/face.e4e11ed7c4c1b9b367a6.png",
     "index.html": "/PapeleriaBelen/index.html",
     "main.5a43bedd.css.map": "/PapeleriaBelen/static/css/main.5a43bedd.css.map",
-    "main.fc1fd492.js.map": "/PapeleriaBelen/static/js/main.fc1fd492.js.map",
+    "main.4013148f.js.map": "/PapeleriaBelen/static/js/main.4013148f.js.map",
     "453.53214a2d.chunk.js.map": "/PapeleriaBelen/static/js/453.53214a2d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5a43bedd.css",
-    "static/js/main.fc1fd492.js"
+    "static/js/main.4013148f.js"
   ]
 }
