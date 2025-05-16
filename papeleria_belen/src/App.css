@@ -1,135 +1,211 @@
+/* 💠 General */
 .App {
+  
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+
 
 .App-header {
-  background-color: #f6ffd7;
-  min-height: 100vh;
+ 
+  background: linear-gradient(135deg, #f6ffd7, #d8f9b0);
+  width: 100%;
+  padding-top: 15%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: rgb(0, 0, 0);
+  font-size: 1.2rem;
+  color: #222;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
 
-  width: 100%;
-  
-  padding-left: 30px;
+  overflow: hidden;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-.menu{
-  
-  padding-top: 100px;
-  padding-left: 50px;
-  justify-content: left;
-  display: flex;
-  gap: 30px;
-  height: 200px;
-  width: 100vw;
-  background-color: #78c21f;
-  color: white;
-}
-
-.menu_superior{
-position: fixed;
-
-top: 0;
-left: 0;
-padding: 45px;
-
-
-background-color: #afe66d;
-color: #ffffff;
-justify-content: center;
-align-items: center;
-
-width: 100vw;
-}
-
-.datos_menu_superior{
-align-items: center;
-  display: flex;
-  justify-content: center;
- gap: 50px;
-
- margin: -10px;
-}
-
-.bloque-productos{
- 
-  width: 300px;
-  height: 300px;
-  margin: 10px;
-  padding: 30px;
-  aspect-ratio: 1/1;
-
-  background-color: #d8f9b0;
-  overflow: auto;
-}
-
-.menu-inferior{
- 
-  bottom: 0;
+/* 📌 Menú Superior */
+.menu_superior {
+  position: fixed;
+  top: 0;
   left: 0;
- 
-
-background-color: #78c21f;
-
-color: #ffffff;
-justify-content: center;
-align-items: center;
-
-  padding-top: 10px;
-  padding-left: 100px;
-
-width: 100%;
-}
-
-
-
-.contenido-menu-inferior{
-  margin-top:50px;
-  justify-content: center;
-   display: flex;
-  gap: 30px;
-}
-
-h2{
-
-  font-weight: lighter;
-}
-
-.contenedor{
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(90deg, #afe66d, #78c21f);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  color: white;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
+  z-index: 1000;
+}
+
+.datos_menu_superior a {
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.datos_menu_superior a:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* 🎨 Contenedores */
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
   justify-content: center;
+  
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 80px; /* Para que no quede oculto bajo el menú fijo */
+}
+
+/* 🔹 Producto */
+.bloque-productos {
+  width: 100%;
+  height: auto;
+  
+  background: linear-gradient(180deg, #d8f9b0, #afe66d);
+  border-radius: 12px;
+  border: 3px solid #78c21f;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bloque-productos:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.35);
+}
+
+/* 📌 Imagen circular */
+.img-circular {
+  width: 100%;
+  max-width: 150px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: auto;
+}
+
+/* 📌 Precio */
+.mod-precio {
+  font-size: 0.9rem;
+  border: 1px solid #222;
+  color: #fff;
+  padding: 5px;
+  display: inline-block;
+}
+
+.menu_superior_movil{
+  display: none;
+}
+
+/* 🏆 Menú Inferior */
+.menu-inferior {
+  width: 100%;
+  background: #78c21f;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.3);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+/* 🌟 Animaciones */
+@keyframes glow {
+  0% { box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); }
+  50% { box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.3); }
+  100% { box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); }
+}
+
+.App-header:hover {
+  animation: glow 2s infinite alternate;
+}
+
+/* 🔹 Responsive: móviles */
+@media screen and (max-width: 600px) {
+  .menu_superior {
+
+
+    flex-direction: column;
+    text-align:left;
+    align-items: start;
+   
+    
+  }
+
+  .datos_menu_superior{
+    display: none;
+  }
+
+  .contenedor {
+    grid-template-columns: 1fr;
+    
+  }
+
+  
+
+  .mod-precio {
+    font-size: 0.8rem;
+    padding: 4px;
+  }
+
+  .App-header {
+    font-size: 1rem;
+    padding-top: 35%;
+
+  }
+
+  .img-circular {
+    max-width: 100px;
+  }
+  .bloque-productos {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .menu_superior_movil{
+  display: block;
+  border-radius: 12px;
+  background-color: #78c21f;
+  color: white;
+
+
+
+}
+
+.botonMenu{
+   border-radius: 12px;
+  background-color: #78c21f;
+  color: white;
+   border: 1.5px solid #ffffff;
+}
+
+.activo{
+  
+  display: block;
+
+   display: flex;
+  flex-wrap: wrap; /* 🔥 Hace que los ítems pasen a la siguiente línea si no caben */
+  justify-content: center;
+  gap: 10px;
 }
 
 
 
-
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ 
 }

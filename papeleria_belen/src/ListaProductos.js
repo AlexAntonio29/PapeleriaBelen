@@ -21,7 +21,7 @@ const productos = [
   { id: 16, nombre: "Libreta Scribe Pautado 50 hojas", precio: "30", imagen: require("./resources/producto/16.jpg") },
   { id: 17, nombre: "Libreta Norma Pautado", precio: "65", imagen: require("./resources/producto/17.jpg") },
   { id: 18, nombre: "Carpeta multiple", precio: "105", imagen: require("./resources/producto/18.jpg") },
-  { id: 19, nombre: "Globa payado N. 9", precio: "85", imagen: require("./resources/producto/19.jpg") },
+  { id: 19, nombre: "Globo payaso N.9", precio: "85", imagen: require("./resources/producto/19.jpg") },
   { id: 20, nombre: "Cortina Cumpleaños", precio: "35", imagen: require("./resources/producto/20.jpg") },
    { id: 21, nombre: "Compas Delta Metal", precio: "46", imagen: require("./resources/producto/21.jpg") },
   { id: 22, nombre: "Compas Barrilito Plastico", precio: "34", imagen: require("./resources/producto/22.jpg") },

@@ -21,10 +21,10 @@ export const BloqueProducto = ({ nombre, precio,imagen}) => {
         {
             //aqui debe de ir la imagen
         }
-
-         <img  src={imagen} style={{width: 150, height: 150}}/>
+        
+         <img class="img-circular"  src={imagen} style={{width: 150, height: 150}}/>
         <h2>{nombre}</h2>
-        <h3>$ {precio}</h3>
+        <h3 className='mod-precio'>$ {precio}</h3>
 
 
 

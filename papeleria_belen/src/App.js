@@ -17,6 +17,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        
+        
         <Menu />
         <MenuSuperior setSeccionActiva={setSeccionActiva} /> {/* Pasar función a MenuSuperior */}
 
