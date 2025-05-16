@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/PapeleriaBelen/static/css/main.6c248946.css",
-    "main.js": "/PapeleriaBelen/static/js/main.703b4ce0.js",
+    "main.css": "/PapeleriaBelen/static/css/main.47ba81da.css",
+    "main.js": "/PapeleriaBelen/static/js/main.cc9e9a81.js",
     "static/js/453.53214a2d.chunk.js": "/PapeleriaBelen/static/js/453.53214a2d.chunk.js",
     "static/media/logo2.png": "/PapeleriaBelen/static/media/logo2.16023b47bc9d9278baae.png",
     "static/media/wasao.png": "/PapeleriaBelen/static/media/wasao.93927aa4caf300bec569.png",
     "static/media/26.jpg": "/PapeleriaBelen/static/media/26.f37908cdfaedf0fbdc78.jpg",
     "static/media/24.jpg": "/PapeleriaBelen/static/media/24.27df3819d2cc6befe7fb.jpg",
     "static/media/25.jpg": "/PapeleriaBelen/static/media/25.7f5d709f97d115278e5c.jpg",
+    "static/media/face2.png": "/PapeleriaBelen/static/media/face2.a65fc5ec940811d90ff4.png",
     "static/media/13.jpg": "/PapeleriaBelen/static/media/13.567be1eae43b8f286d95.jpg",
     "static/media/11.jpg": "/PapeleriaBelen/static/media/11.5f89e51f8fb3efc19201.jpg",
     "static/media/10.jpg": "/PapeleriaBelen/static/media/10.12f9a695f9da1244cc52.jpg",
@@ -31,14 +32,13 @@
     "static/media/18.jpg": "/PapeleriaBelen/static/media/18.aadb4bf50246683acd77.jpg",
     "static/media/6.jpg": "/PapeleriaBelen/static/media/6.d752c99ce427f85dfec3.jpg",
     "static/media/7.jpg": "/PapeleriaBelen/static/media/7.4e8bf7f8d30bed25779f.jpg",
-    "static/media/face.png": "/PapeleriaBelen/static/media/face.e4e11ed7c4c1b9b367a6.png",
     "index.html": "/PapeleriaBelen/index.html",
-    "main.6c248946.css.map": "/PapeleriaBelen/static/css/main.6c248946.css.map",
-    "main.703b4ce0.js.map": "/PapeleriaBelen/static/js/main.703b4ce0.js.map",
+    "main.47ba81da.css.map": "/PapeleriaBelen/static/css/main.47ba81da.css.map",
+    "main.cc9e9a81.js.map": "/PapeleriaBelen/static/js/main.cc9e9a81.js.map",
     "453.53214a2d.chunk.js.map": "/PapeleriaBelen/static/js/453.53214a2d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c248946.css",
-    "static/js/main.703b4ce0.js"
+    "static/css/main.47ba81da.css",
+    "static/js/main.cc9e9a81.js"
   ]
 }
