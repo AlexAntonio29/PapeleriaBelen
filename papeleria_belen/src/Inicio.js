@@ -1,12 +1,22 @@
 import React from 'react'
-import { ListaProductos } from './ListaProductos'
+import { ProductoDia } from './inicio/ProductoDia'
+import { ProductosPopulares } from './inicio/ProductosPopulares'
+import { QuienesSomos } from './inicio/QuienesSomos'
+import {Ubicacion} from './inicio/Ubicacion'
+
+import "./Inicio.css"
+
 
 export const Inicio = () => {
   return (
-    <div> <h1>Inicio</h1>
+    <div className='inicio'> 
 
+    <ProductoDia/>
+    <ProductosPopulares/>
+    <QuienesSomos/>
+    <Ubicacion/>
 
-        <ListaProductos/>
+       
     </div>
     
   )

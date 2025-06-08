@@ -10,6 +10,8 @@ import { Historia } from "./Historia";
 import { Vision } from "./Vision";
 import { Valores } from "./Valores";
 import { Testimonio } from "./Testimonio";
+import { Productos } from "./Productos";
+
 
 function App() {
   const [seccionActiva, setSeccionActiva] = useState("inicio"); // Sección por defecto
@@ -18,15 +20,16 @@ function App() {
     <div className="App">
       <header className="App-header">
         
-        
+           <MenuSuperior setSeccionActiva={setSeccionActiva} /> {/* Pasar función a MenuSuperior */}
+           
         <Menu />
-        <MenuSuperior setSeccionActiva={setSeccionActiva} /> {/* Pasar función a MenuSuperior */}
+     
 
         {/* Renderizar solo el componente de la sección activa */}
         {seccionActiva === "inicio" && <Inicio />}
         {seccionActiva === "nosotros" && <Nosotros />}
         {seccionActiva === "historia" && <Historia />}
-
+        {seccionActiva === "productos" && <Productos/>}
         {seccionActiva === "vision" && <Vision/>}
         {seccionActiva === "valores" && <Valores/>}
         {seccionActiva === "testimonio" && <Testimonio/>}

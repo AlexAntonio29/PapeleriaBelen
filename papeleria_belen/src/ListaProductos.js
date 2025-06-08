@@ -33,13 +33,22 @@ const productos = [
 ];
 
 export const ListaProductos = () => {
+  const enviarWhatsApp = (nombreProducto) => {
+    let numero = "5219516435067"; 
+    let mensaje = "Hola, quiero más información! de este producto: "+nombreProducto;
+    let url = `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`;
+    window.open(url, "_blank"); 
+  };
+
   return (
-    <div>
+    <div >
 
          {/* 🔹 Renderizar bloques de productos dinámicamente */}
                 <div className="contenedor">
                   {productos.map((producto) => (
+                     <div className="contenedor" key={producto.id} onClick={() => enviarWhatsApp(producto.nombre)}>
                     <BloqueProducto key={producto.id} nombre={producto.nombre} precio={producto.precio} imagen={producto.imagen} />
+                 </div>
                   ))}
                 </div>
     </div>

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+.inicio{
+    
+    
+    width: 100%;
+    background: linear-gradient(135deg, #f6ffd7, #d8f9b0);;
+    color: blueviolet;
+
+  
+
+}
+
+
+
+
+.contenedor-clasico{ 
+    
+   
+    margin: 2cm auto;
+    
+   
+    background: white;
+    line-height: 2;
+    font-size: 2rem;
+     font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(24, 24, 24);
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: background 0.3s ease;
+
+   width: 80%;
+   
+    padding: 20px;
+    background: linear-gradient(135deg, #fdfdfc, #ffffff); /* 🌟 Fondo verde suave */
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    
+    font-family: 'Quicksand', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 0.5px; /* 🌟 Mejora la legibilidad */
+  color: #333;
+    
+}
+.imageContenedor{
+    width: 300px;
+    height: 350px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .imageContenedor{
+    width: 100px;
+    height: 150px;
+}
+ 
+
+    .contenedor-clasico{
+font-size: 1rem;
+width: 90%;
+    }
+}

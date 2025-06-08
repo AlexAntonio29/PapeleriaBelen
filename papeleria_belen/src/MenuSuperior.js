@@ -26,6 +26,9 @@ setActivo(!activo);
         <a href="#" onClick={() => setSeccionActiva("vision")}>Vision</a>
         <a href="#" onClick={() => setSeccionActiva("valores")}>Valores</a>
         <a href="#" onClick={() => setSeccionActiva("testimonio")}>Testimonio</a>
+        <a href="#" onClick={() => setSeccionActiva("productos")}>productos</a>
+        
+       
        
       </div>
 

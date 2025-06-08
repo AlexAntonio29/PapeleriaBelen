@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Testimonio = () => {
   return (
-    <div>
+    <div className='contenedor-clasico'>
             <h1>Testimonio</h1>
 
         

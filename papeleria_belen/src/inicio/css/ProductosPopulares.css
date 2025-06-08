@@ -1,0 +1,21 @@
+
+.productos-populares{
+width: 100%;
+}
+
+.contenedor-productos-populares{
+    display: flex;
+    align-items: center;
+    height: 400px;
+    background: white;
+    max-width: 75%;
+    height: 400px;
+    justify-content: center; 
+    width: 100%;
+    border-radius: 20px ;
+
+    margin: 2cm auto;
+
+    
+}
+

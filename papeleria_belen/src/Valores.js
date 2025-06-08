@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Valores = () => {
   return (
-    <div> <h1>Valores</h1>
+    <div className='contenedor-clasico' > <h1>Valores</h1>
 
     <ol>
     <li>Responsabilidad: Cumplimos con cada cliente como si fuera el primero.</li>
