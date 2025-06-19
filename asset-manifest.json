@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PapeleriaBelen/static/css/main.2d529f3c.css",
-    "main.js": "/PapeleriaBelen/static/js/main.26a2bd79.js",
+    "main.css": "/PapeleriaBelen/static/css/main.2961a9a3.css",
+    "main.js": "/PapeleriaBelen/static/js/main.2bacbe09.js",
     "static/js/453.e5576543.chunk.js": "/PapeleriaBelen/static/js/453.e5576543.chunk.js",
     "static/media/image3.png": "/PapeleriaBelen/static/media/image3.8be4f36a931e3c83c6c7.png",
     "static/media/logo.png": "/PapeleriaBelen/static/media/logo.5b9dccde4147eefbaf4c.png",
@@ -37,12 +37,12 @@
     "static/media/17.jpg": "/PapeleriaBelen/static/media/17.2fca96e5271ab1d9c683.jpg",
     "static/media/18.jpg": "/PapeleriaBelen/static/media/18.aadb4bf50246683acd77.jpg",
     "index.html": "/PapeleriaBelen/index.html",
-    "main.2d529f3c.css.map": "/PapeleriaBelen/static/css/main.2d529f3c.css.map",
-    "main.26a2bd79.js.map": "/PapeleriaBelen/static/js/main.26a2bd79.js.map",
+    "main.2961a9a3.css.map": "/PapeleriaBelen/static/css/main.2961a9a3.css.map",
+    "main.2bacbe09.js.map": "/PapeleriaBelen/static/js/main.2bacbe09.js.map",
     "453.e5576543.chunk.js.map": "/PapeleriaBelen/static/js/453.e5576543.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d529f3c.css",
-    "static/js/main.26a2bd79.js"
+    "static/css/main.2961a9a3.css",
+    "static/js/main.2bacbe09.js"
   ]
 }
