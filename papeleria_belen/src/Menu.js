@@ -6,7 +6,7 @@ export const Menu = () => {
     <div className='menu'>
        
        
-        <img className='menu-imagen'  src={imagen} style={{width:350, height:350}}/>
+        <img className='menu-imagen'  src={imagen} style={{width: "calc(1px + 50vmin)", height: "calc(1px + 50vmin)"}}/>
 
             <h2 >
 

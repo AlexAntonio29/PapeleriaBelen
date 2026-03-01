@@ -1,4 +1,5 @@
 import React from 'react'
+import img11 from "./resources/image2.png"
 
 export const Valores = () => {
   return (
@@ -15,7 +16,8 @@ export const Valores = () => {
      <p></p>
     <li>Honestidad: Transparencia en cada precio, en cada recomendación, en cada trato.</li>
     </ol>
-        
+          <img src={img11}  style={{margin:"10px",width: "calc(1px + 50vmin)", height: "calc(1px + 50vmin)", borderRadius:"100px"}}/>
+    
     </div>
   )
 }

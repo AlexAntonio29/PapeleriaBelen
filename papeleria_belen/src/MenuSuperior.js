@@ -1,10 +1,16 @@
 import React, { useState } from 'react';
-
+import { useRef } from "react";
+import logo from "./resources/logo.png"
 function MenuSuperior({ setSeccionActiva }) {
 
   const [activo,setActivo] = useState(false);
   const acitvacion = () =>{
 setActivo(!activo);
+  }
+const refCaja = useRef(null);
+  const actionOnclick=(data)=>{
+  setSeccionActiva(data);
+  setActivo(false);
   }
   
   return (
@@ -12,21 +18,21 @@ setActivo(!activo);
 
 
     <div className="menu_superior">
-      <h1>Papeleria Belen</h1>
+     
+
+         <img src={logo}  
+         style={{width: "calc(1px + 40vmin)", height: "calc(1px + 20vmin)", borderRadius:"100px"}}/>
+     
 
       <div className="menu_superior_movil" >
         <button className='botonMenu' onClick={acitvacion}>Menu</button>
       </div>
 
-      <div className={activo? 'datos_menu_superior activo': 'datos_menu_superior'}>
+      <div ref={refCaja} className={activo? 'datos_menu_superior activo': 'datos_menu_superior'}>
           
-        <a href="#" onClick={() => setSeccionActiva("inicio")}>Inicio</a>
-        <a href="#" onClick={() => setSeccionActiva("nosotros")}>Nosotros</a>
-        <a href="#" onClick={() => setSeccionActiva("historia")}>Historia</a>
-        <a href="#" onClick={() => setSeccionActiva("vision")}>Vision</a>
-        <a href="#" onClick={() => setSeccionActiva("valores")}>Valores</a>
-        <a href="#" onClick={() => setSeccionActiva("testimonio")}>Testimonio</a>
-        <a href="#" onClick={() => setSeccionActiva("productos")}>productos</a>
+        <a href="#" onClick={(e) => actionOnclick("inicio")}>Inicio</a>
+        <a href="#" onClick={(e) => actionOnclick("historia")}>Historia</a>
+        <a href="#" onClick={(e) => actionOnclick("productos")}>productos</a>
         
        
        

@@ -1,12 +1,18 @@
 import React from 'react'
 import { ListaProductos } from './ListaProductos'
+import { Libretas } from './productos/Libretas'
+import { Otros } from './productos/Otros'
+import { ProductoDia } from './inicio/ProductoDia'
 
 export const Productos = () => {
   return (
-    <div className='productos'>
-      <h1>Productos</h1>
+    <div >
+      <h1>PRODUCTOS</h1>
+      <ProductoDia/>
+      <Libretas/>
+      <Otros/>
 
-       <ListaProductos/>
+       
     </div>
   )
 }

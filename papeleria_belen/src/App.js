@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import { Menu } from "./Menu";
+
 import MenuSuperior from "./MenuSuperior"; // ✅ Correcto para export default
 
 import { MenuInferior } from "./MenuInferior";
@@ -22,7 +22,7 @@ function App() {
         
            <MenuSuperior setSeccionActiva={setSeccionActiva} /> {/* Pasar función a MenuSuperior */}
            
-        <Menu />
+        
      
 
         {/* Renderizar solo el componente de la sección activa */}
